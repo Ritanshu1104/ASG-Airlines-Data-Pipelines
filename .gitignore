@@ -1,0 +1,17 @@
+# Data files (Never commit raw PII or large datasets)
+data/raw/
+data/cleaned/
+data/mart/
+*.csv
+*.xlsx
+*.parquet
+*.db
+
+# Environment & IDE
+venv/
+.env
+.vscode/
+.ipynb_checkpoints/
+
+# Power BI
+*.pbix.data
